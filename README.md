@@ -12,14 +12,17 @@
 ![image](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
 
 
-<video src='github-resources/preview.mp4'></video>
+
+https://github.com/user-attachments/assets/9dbbc19a-2f4e-4b92-99a0-bb5cacc75e0d
+
+
 
 ### About
 One to one chat application built in NestJS and React
 
 ### Run & Environment Variables
 
-💻 <b><u>Without Docker</u></b>
+💻 <ins><b>Without Docker</b></ins>
 
 The backend requires 2 environment variables that should be placed at .env in backend's root directory 
 
@@ -39,7 +42,7 @@ npm run seed              # Optional ~ creates 10 fake users
 npm run start:prod
 ```
 
-🐳 <b><u>With Docker & Docker Compose</u></b>
+🐳 <ins><b>With Docker & Docker Compose</b></ins>
 
 If you are using Docker Compose, you can omit the environment variables. The setup will automatically create and use a default database along with a dummy secret key that I have configured.
 ```
