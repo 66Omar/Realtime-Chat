@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chat-scroll::-webkit-scrollbar-track {
+  background-color: var(--foreground) !important;
+}
+
+.chat-scroll::-webkit-scrollbar {
+  width: 9px;
+  background-color: var(--scrollbar-thumb) !important;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+  background-color: var(--scrollbar-thumb);
+}
+
+:root {
+  --background: rgb(243, 244, 246);
+  --border: rgb(229, 231, 235);
+  --foreground: white;
+  --primary: rgb(243, 244, 246);
+  --secondary: rgb(238, 242, 255);
+  --accent: rgb(99, 102, 241);
+  --green-foreground: rgb(34, 197, 94);
+  --green-background: rgb(240, 253, 244);
+  --blue-foreground: rgb(59, 130, 246);
+  --blue-background: rgb(239, 246, 255);
+  --orange-foreground: rgb(249, 115, 22);
+  --orange-background: rgb(255, 247, 237);
+  --text: rgb(75, 85, 99);
+  --muted: rgb(107, 114, 128);
+  --primary-button-text: white;
+  --scrollbar-thumb: rgb(195, 193, 193);
+  --input: rgb(166, 166, 166);
+}
+
+.light {
+  --background: rgb(243, 244, 246);
+  --border: rgb(229, 231, 235);
+  --foreground: white;
+  --primary: rgb(243, 244, 246);
+  --secondary: rgb(238, 242, 255);
+  --accent: rgb(99, 102, 241);
+  --green-foreground: rgb(34, 197, 94);
+  --green-background: rgb(240, 253, 244);
+  --blue-foreground: rgb(59, 130, 246);
+  --blue-background: rgb(239, 246, 255);
+  --orange-foreground: rgb(249, 115, 22);
+  --orange-background: rgb(255, 247, 237);
+  --text: rgb(75, 85, 99);
+  --muted: rgb(107, 114, 128);
+  --primary-button-text: white;
+  --scrollbar-thumb: rgb(195, 193, 193);
+  --input: rgb(215, 215, 215);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #333;
+    --border: #444;
+    --foreground: #222;
+    --primary: #444;
+    --secondary: #2e3347;
+    --accent: rgb(99, 102, 241);
+    --green-foreground: rgb(74, 222, 128);
+    --green-background: rgba(34, 197, 94, 0.2);
+    --blue-foreground: rgb(96, 165, 250);
+    --blue-background: rgba(59, 130, 246, 0.2);
+    --orange-foreground: rgb(251, 146, 60);
+    --orange-background: rgba(249, 115, 22, 0.2);
+    --text: #e5e5e5;
+    --muted: #a0a0a0;
+    --primary-button-text: white;
+    --scrollbar-thumb: rgb(62, 60, 60);
+    --input: #444;
+  }
+}
+
+.dark {
+  --background: #333;
+  --border: #444;
+  --foreground: #222;
+  --primary: #444;
+  --secondary: #2e3347;
+  --accent: rgb(99, 102, 241);
+  --green-foreground: rgb(74, 222, 128);
+  --green-background: rgba(34, 197, 94, 0.2);
+  --blue-foreground: rgb(96, 165, 250);
+  --blue-background: rgba(59, 130, 246, 0.2);
+  --orange-foreground: rgb(251, 146, 60);
+  --orange-background: rgba(249, 115, 22, 0.2);
+  --text: #e5e5e5;
+  --muted: #a0a0a0;
+  --primary-button-text: white;
+  --scrollbar-thumb: rgb(62, 60, 60);
+  --input: #444;
+}
